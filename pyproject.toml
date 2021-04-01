@@ -19,7 +19,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.6"
-cryptography = "^2.9"
+cryptography = ">=2.9,<4.0"
 click = "^7.1.1"
 keyring = "^21.0.0"
 
